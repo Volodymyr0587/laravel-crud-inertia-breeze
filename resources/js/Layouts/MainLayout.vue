@@ -1,6 +1,6 @@
 <template>
     <div class="w-96 mx-auto pt-8">
-        <h1 class="text-xl mb-8">Simple (?) Posts Pages</h1>
+        <h1 class="text-xl mb-8">Simple Posts Pages</h1>
         <slot />
     </div>
 </template>
