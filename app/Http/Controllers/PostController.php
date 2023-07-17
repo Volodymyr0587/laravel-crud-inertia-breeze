@@ -46,4 +46,10 @@ class PostController extends Controller
         $post->update($request->validated());
         return redirect()->route('post.index');
     }
+
+    public function destroy(Post $post)
+    {
+        $post->delete();
+        return redirect()->route('post.index');
+    }
 }
